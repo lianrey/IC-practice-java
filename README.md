@@ -1,0 +1,1 @@
+This project provides the java solution for some IC exercises.
