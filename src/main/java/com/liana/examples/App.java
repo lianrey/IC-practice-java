@@ -32,8 +32,13 @@ public class App {
             System.out.println(meeting.toString() + " ");
         }
 
+        //QUESTION 5
         System.out.println("Question 5");
         System.out.println(Question5.ChangePossibilitiesBottomUp(4, new int[]{1,2,3}));
+
+        //QUESTION 6
+        System.out.println(Question6.FindRectangularOverlap(new Rectangle(1, 10, 3, 20), new Rectangle(2, 10, 3, 15)).LeftX);
+
     }
 }
 
