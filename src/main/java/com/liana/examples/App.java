@@ -31,6 +31,9 @@ public class App {
         {
             System.out.println(meeting.toString() + " ");
         }
+
+        System.out.println("Question 5");
+        System.out.println(Question5.ChangePossibilitiesBottomUp(4, new int[]{1,2,3}));
     }
 }
 
