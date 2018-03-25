@@ -51,6 +51,19 @@ public class App {
         System.out.println("Min: " + temp.getMin());
         System.out.println("Average: " + temp.getMean());
         System.out.println("Total: " + temp.getMode());
+
+        //QUESTION 8
+        BinaryTreeNode tree = new BinaryTreeNode(1);
+        BinaryTreeNode left1 = tree.insertLeft(2);
+        BinaryTreeNode left2 = left1.insertLeft(3);
+        BinaryTreeNode left3 = left2.insertLeft(4);
+
+        BinaryTreeNode right1 = tree.insertRight(5);
+        BinaryTreeNode right1left1 = tree.insertRight(8);
+        BinaryTreeNode right2 = right1.insertRight(6);
+        BinaryTreeNode right3 = right2.insertRight(7);
+
+        System.out.println("Is balanced:D " + Question8.IsBalanced(tree));
     }
 }
 
