@@ -39,6 +39,18 @@ public class App {
         //QUESTION 6
         System.out.println(Question6.FindRectangularOverlap(new Rectangle(1, 10, 3, 20), new Rectangle(2, 10, 3, 15)).LeftX);
 
+        //QUESTION 7
+        Question7 temp = new Question7();
+        temp.addTemperature(1);
+        temp.addTemperature(3);
+        temp.addTemperature(6);
+        temp.addTemperature(3);
+        temp.addTemperature(1);
+        temp.addTemperature(3);
+        System.out.println("Max: " + temp.getMax());
+        System.out.println("Min: " + temp.getMin());
+        System.out.println("Average: " + temp.getMean());
+        System.out.println("Total: " + temp.getMode());
     }
 }
 
